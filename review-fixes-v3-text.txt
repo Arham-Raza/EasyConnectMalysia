@@ -1,0 +1,136 @@
+/home/ Page
+URL mein /home nahi aa raha.
+/about/ Page
+Link to /e-waste page
+I guess ye heading wo light blue color mein hogi to ziada sahi lage gi. Jo blue theme mein hai (jo buttons ka color hai).
+Im ot sure about it, kr k dekh lena.
+Thori choti picture lagao. Width is fine but length choti honi chahiye becz this extra space looks bad. Same goes for all pages. Jahan tak text hai wahan tak ki image ho.OR
+We can move text downwards takay text se upar or neeche equal empty space ho. Kr k dekh lena jo acha lage wo krdena. But jo karo sare pages mein same rakhna.
+Our Vision -> blue like before
+Our Mission -> orange like before
+Core Values -> same size as “Our vision” and “our mission”
+Remove eyebrow text
+ye CTA section aise overlap hi rahe ga? If yes, then keep it consistent across all pages. And if not, tab bhi sare pages mein hir same hi rakhna.
+/products/ Page
+Remove this button!! products explore krne kahan jayein? Products k page p hi hain hum.
+You can expand the circled text. 2 lines mein ajaye ga I guess
+Wohi image size wala issue.
+Expand the text under the heading
+Name the button as “Enquire About Products”
+Remove this text.
+/products/business-series page
+Arrange cards in the described manner.
+Jo cut kia hai wo remove krna hai.
+Arayy bulk pricing (transparent) wala button to rakhna than a a sirf blue wala button hatana tha.
+/products/students Page
+Arrange cards in this manner
+Center the cards
+Remove the enquire button from each card and just put one blur button under the cards
+Blue button in centre
+/products/workstations page
+Arrange cards in this manner
+Center the cards
+One enquire button beneath all cards.
+Link sustainable IT practices to e-waste page
+Bullets look odd
+Expand the note and write it like;
+“Note: Workstation requirements are specific to software and workload. We recommend a brief consultation to understand your application stack and performance bottleneck.”
+/products/gaming page
+This entire section needs to be fixed. The text is not same. There were supposed to be no cards.
+GPU Stress-Testing & Thermal Performance Verification
+Standard refurbished laptop testing includes checking CPU and RAM, but gaming devices demand more. We run sustained GPU load tests to verify:
+Thermal performance under extended load (no thermal throttling observed)
+Display refresh rate consistency (144Hz actually achieves 144fps, not variable refresh)
+GPU memory bandwidth under sustained rendering
+Battery capacity and power delivery stability during gaming sessions
+Cooling fan noise and thermal management
+Every gaming unit we supply has passed these verification steps. This is not marketing; it is engineering validation.
+Remove the enquire button from each card and place one blue enquire button under these cards.
+Answers of FAQs are not the ones I wrote. Plz look into it.
+/products/editing/ Page
+Arrange cards in this manner
+Arrange cards in any manner you prefer. Pehla wala ziada sahi hai I guess.
+And instead of enquire button in each card, keep just one enquire button under the cards.
+These bullets look bad. Keep it left-aligned but in the centre.
+/solutions/ Page
+Remove eyebrow text
+Remove “less fragmentation. More control.” Instead, put a picture here
+Spacing issue between 2 sections
+Remove eyebrow text
+Arrange cards in this manner
+Remove eyebrow text
+Content missing
+Remove eyebrow text
+No enquire or explore button required in any card
+Remove eyebrow text
+Arrange card in this manner
+/solutions/itad/ Page
+Exact text: “Military-grade data destruction compliant with PDPA(2010) and other international standards, with certificates and chain of custody documents made available to the client.”
+Remove heading “retire IT assets without the risk.”
+Remove button
+remove eyebrow text
+Text in the cards is different. Plz put the text provided.
+PDPA Malaysia 2010 Requirements
+The Personal Data Protection Act 2010 imposes explicit obligations on data processors to prevent unauthorized access, disclosure, or loss of personal data, including at end-of-life. A device retired without certified data destruction is a data breach waiting to happen. MCMC and JPDP enforcement activity has intensified since 2024.
+Reputational Risk
+A single data breach from improperly retired hardware damages brand trust, customer confidence, and market valuation. The cost of breach notification, remediation, and regulatory fines far exceeds the cost of certified ITAD upfront.
+Contractual Compliance
+Organizations supplying multinationals or large corporates often face contractual data security requirements. Our ITAD documentation from certified partners satisfies these requirements, reducing supplier risk and protecting your business relationships.
+Remove eyebrow text
+Incomplete text in step 4 and 5
+Stage 4 - Certificate of Data Destruction
+Our partners issue a formal Certificate per device, showing serial number, sanitization method applied, verification pass status, and date of destruction. Acceptable for PDPA compliance documentation, internal audit, regulatory inspection, and client due diligence.
+Stage 5 - Downstream Handling
+Hardware assessed for refurbishment potential. Units suitable for resale are restored. Hardware beyond reuse is transferred to our Corporate E-Waste Disposal service through DOE-licensed recycling partners. Landfill disposal never occurs.
+Remove eyebrow text
+FAQ answers are not as provided. Plz keep them exactly same
+/solutions/e-waste/ Page
+Remove button
+Remove heading “responsible retirement. Circular value.”
+Interlink “certified data destruction" in 3rd paragraph to itad page
+Remove eyebrow text
+Text exactly not copied as provided
+Remove eyebrow text
+The text in all the steps is different. Plz write exact as provided.
+Remove eyebrow text
+FAQ answers are not same as I provided
+Expand this text. 2-3 lines mein ajaye ga.
+/solutions/rental/ Page
+Remove heading “IT whe you need…”Remove both buttons.
+Remove eyebrow text
+This entire section is different than I provided. Plz look into it.
+Why Rent Instead of Buying?
+Buying hardware makes sense when equipment will remain in service for many years. Rental is often the better option when organizations need flexibility.
+Benefits include:
+Lower upfront investment 
+Preserve cash flow 
+Convert CapEx into predictable OpEx 
+Scale devices up or down as projects change 
+No storage of unused equipment 
+No end-of-life disposal management 
+Latest business-grade hardware 
+Sustainable IT lifecycle management
+Remove eyebrow text
+Text is not same as I provided
+Try some different style for these cards because headings look crowded.
+Remove eyebrow text
+The text in steps is not the one I provided.
+There wasn’t any FAQ section on this page in the document I provided.
+Write text as provided. Bullets shall remain bullets not converted into paragraph.
+Need to Rent Laptops or Computers in Malaysia?
+Tell us:
+Device type 
+Quantity 
+Rental duration 
+Delivery location 
+Configuration requirements 
+Or if you’re unsure about what device to rent, tell your use case to our rental expert to get the most optimized rental quotation.
+Button:Speak to a Rental Specialist
+/solutions/bulk-procurement Page
+/solutions/buyback/ Page
+In pages mein bhi same hi issues hon gay:
+Remove eyebrow text.
+Section 2, just after the hero section, usme se buttons or heading hatani hai jese baki sab pages mein bataya hai.
+Arrange cards evenly in the centre.
+Keep the content exactly same.
+Throughout all the pages, background color jese hum ne discuss kia thaw ese rakhna hai or section 2 k sath images add krni hain instead of those thumbnails on the side.

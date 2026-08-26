@@ -1,0 +1,87 @@
+/home/ Page
+Home page is perfect.
+
+/about/ Page
+
+	Link to /e-waste page	
+	
+	
+	Who We Are should be H2
+	Add a relevant picture instead of “Qualified hardware supply. Complete lifecycle support.”
+	
+	
+	“Vision, Mission and Values” should be H2
+	rest should be normal text underneath like "where premium IT hardware..."
+	
+	
+	Our Vision, Our Mission, Core Values should be H3
+	“Building a Smarter Circular Technology Future”, “Empowering Organizations Through Sustainable Technology” should be italic H4
+	
+	
+	Remove link from “DOE licensed…” plz
+	“Integrity in Every Circuit”, “Precision & Reliability”, “Zero-Footprint Accountability” should be italic H4
+	
+	
+	brands we carry mein pehle logos aa rahe thay like above, wo ziada acha lag raha tha ab sirf naam aa raha brand ka.
+	
+	
+	“Brands We Carry” should be between this area takay uske bad bhi kuch space ho, then ye audit standard process ka section aye. Currently it seems joined with audit standard...
+	
+	
+	H2: Audit Standard Process
+	“Every Unit Approved” should be the eyebrow text
+	Rest of the headings 1-6 should be H3
+	
+	
+	H2: Ready to Equip Your Organization?
+	
+/products/ Page
+
+Remove “bulk pricing” button
+sirf "IT refresh cycles" ko link krna  hai
+
+
+Add a relevant picture instead of “hardware that fits…” Techrevelo ki koi picture laga sakte maybe
+Don’t link “individual purchases” 
+Link “retail” to the contacts page
+Link “e-commerce brand, Techrevelo” directly to the shopee page
+
+
+
+
+H2: Browse by Organizational Needs
+“From corporate laptops to specialized engineering workstations.” Normal text in grey color under H2.
+
+
+
+Instead of “Explore” button in every card, we can add just one “Explore” button below all these cards. Cards will occupy less space this way.
+
+
+
+
+You can expand the circled text. 2 lines mein ajaye ga I guess
+
+
+Add space before the circled text and link “speak with a Hardware Specialist.”
+
+/products/business-series page
+
+
+
+
+Arrange cards this way
+
+
+H2: Business Laptop Lines We Supply
+
+
+One enquire button beneath all cards
+Arrange cards in the described manner.
+Jo cut kia hai wo remove krna hai
+
+
+FAQ answers are not as provided. They are incomplete. Plz look into it.
+
+
+
+

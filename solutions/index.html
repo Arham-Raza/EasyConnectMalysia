@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Lifecycle Solutions Malaysia | ITAD, Rental, Procurement</title>
+    <meta name="description"
+        content="IT lifecycle solutions for Malaysian organizations, including ITAD, e-waste management, corporate rental, bulk procurement and asset buyback.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css?v=20260825_11">
+    <link rel="icon" type="image/png" href="/images/ec-logo.png">
+</head>
+
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <nav class="navbar navbar--solid" id="navbar">
+        <div class="nav-inner">
+            <a href="/home" class="logo-wrap"><img src="/images/ec-logo.png" alt="Easy Connect Solutions"
+                    class="logo-img"></a>
+            <ul class="nav-links">
+                <li><a href="/about">About Us</a></li>
+                <li class="has-dropdown"><a href="/products">Products <i
+                            class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/products/business-series">Business Series</a></li>
+                        <li><a href="/products/students">Students</a></li>
+                        <li><a href="/products/workstations">Workstations</a></li>
+                        <li><a href="/products/gaming">Gaming</a></li>
+                        <li><a href="/products/editing">Editing</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/solutions">Solutions <i
+                            class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/solutions/itad">ITAD &amp; Data Wiping</a></li>
+                        <li><a href="/solutions/e-waste">E-Waste &amp; Sustainability</a></li>
+                        <li><a href="/solutions/rental">Rental &amp; Corporate Leasing</a></li>
+                        <li><a href="/solutions/bulk-procurement">Bulk Procurement</a></li>
+                        <li><a href="/solutions/buyback">IT Asset Buyback</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/resources">Resources <i
+                            class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/resources/blog">Blog</a></li>
+                        <li><a href="/resources/buying-guides">Buying Guides</a></li>
+                        <li><a href="/resources/case-studies">Case Studies</a></li>
+                        <li><a href="/resources/faqs">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-switcher"><button class="lang-btn active"
+                        onclick="setLanguage('en')">EN</button><button class="lang-btn"
+                        onclick="setLanguage('ms')">MS</button><button class="lang-btn"
+                        onclick="setLanguage('zh')">ZH</button></div>
+                <a href="/contact" class="btn btn-navy">Get a Quote</a>
+                <button class="hamburger" id="hamburger"
+                    aria-label="Open menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="/about" onclick="closeMobileMenu()" data-i18n="navAbout">About Us</a></li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Products <i
+                        class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/products/business-series" onclick="closeMobileMenu()">Business Series</a></li>
+                    <li><a href="/products/students" onclick="closeMobileMenu()">Students</a></li>
+                    <li><a href="/products/workstations" onclick="closeMobileMenu()">Workstations</a></li>
+                    <li><a href="/products/gaming" onclick="closeMobileMenu()">Gaming</a></li>
+                    <li><a href="/products/editing" onclick="closeMobileMenu()">Editing</a></li>
+                </ul>
+            </li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Solutions <i
+                        class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/solutions/itad" onclick="closeMobileMenu()">ITAD &amp; Data Wiping</a></li>
+                    <li><a href="/solutions/e-waste" onclick="closeMobileMenu()">E-Waste &amp; Sustainability</a></li>
+                    <li><a href="/solutions/rental" onclick="closeMobileMenu()">Rental &amp; Corporate Leasing</a></li>
+                    <li><a href="/solutions/bulk-procurement" onclick="closeMobileMenu()">Bulk Procurement</a></li>
+                    <li><a href="/solutions/buyback" onclick="closeMobileMenu()">IT Asset Buyback</a></li>
+                </ul>
+            </li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Resources <i
+                        class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/resources/blog" onclick="closeMobileMenu()">Blog</a></li>
+                    <li><a href="/resources/buying-guides" onclick="closeMobileMenu()">Buying Guides</a></li>
+                    <li><a href="/resources/case-studies" onclick="closeMobileMenu()">Case Studies</a></li>
+                    <li><a href="/resources/faqs" onclick="closeMobileMenu()">FAQs</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="/contact" class="btn btn-navy" onclick="closeMobileMenu()" style="margin-top:2rem;"
+            data-i18n="btnQuote">Get a Quote</a>
+    </div>
+
+    <section class="section-white inner-banner">
+        <div class="container inner-banner-content">
+            <div class="breadcrumb"><a href="/home">Home</a><span class="breadcrumb-sep"><i
+                        class="fas fa-chevron-right"></i></span><span>Solutions</span></div>
+            <h1>Complete IT Lifecycle Solutions for <em>Malaysian Organizations</em></h1>
+            <p>Simplifying IT operations across your organization: one partner for hardware procurement, lifecycle
+                management and responsible asset retirement.</p>
+            <div class="inner-banner-actions">
+                <a href="/contact" class="btn btn-teal btn-lg">Transform Your IT Operations</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-white section">
+        <div class="container">
+            <div class="content-split product-intro-grid">
+                <div class="product-intro-media"><img src="/images/solutions-intro.png?v=20260824"
+                        alt="Enterprise IT asset lifecycle management with premium refurbished laptops"></div>
+                <div class="prose-block">
+                    <h2>One Partner for End-to-End <em>IT Asset Lifecycle</em> Management in Malaysia</h2>
+                    <p>Most organizations manage their IT lifecycle through multiple vendors: one for hardware, another
+                        for support, a third for <a href="/solutions/itad">data wiping</a> and informal arrangements for
+                        <a href="/solutions/itad">asset disposal</a>. This fragmentation creates operational complexity, compliance risk and missed
+                        value recovery opportunities.</p>
+                    <p>Easy Connect Solutions manages your entire IT lifecycle under a single relationship: hardware
+                        supply at the front end, lifecycle support throughout operational use and <strong><a href="/solutions/itad">data destruction</a></strong> and <a
+                            href="/solutions/buyback">asset recovery</a> at retirement. This
+                        integrated approach reduces complexity, ensures consistent data security practices and recovers
+                        maximum value from retiring hardware.</p>
+                    <p>Whether you are a 50-person SME equipping your first office or a multinational corporation
+                        refreshing 500+ device fleets across multiple locations, we manage every stage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-gray section">
+        <div class="container">
+            <div class="section-header lifecycle-reasons-heading">
+                <h2>Why a Single IT Lifecycle <em>Provider Matters</em></h2>
+            </div>
+            <div class="solutions-grid solutions-grid--reviewed-four">
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Consistency in Data Security</h3>
+                    <p>Different vendors mean different data-wiping standards, different documentation and different
+                        compliance claims. One provider using consistent NIST 800-88 methods across all engagements
+                        eliminates this variance.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-file-signature"></i></div>
+                    <h3>Simplified Procurement</h3>
+                    <p>Instead of a Request for Quotation (RFQ) to a hardware vendor, an RFQ to an ITAD vendor and an
+                        RFQ to a disposal vendor, you have one point of contact, one quotation and one invoice. Faster
+                        decision-making, simplified approvals.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-coins"></i></div>
+                    <h3>Value Recovery</h3>
+                    <p>Multiple vendors create conflicts of interest, while a single IT lifecycle partner evaluates each
+                        asset to determine whether it should be refurbished, remarketed, bought back or responsibly
+                        recycled, recommending the option that delivers the best financial return.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-link"></i></div>
+                    <h3>Continuity</h3>
+                    <p>Working with one IT lifecycle partner means they already understand your hardware standards,
+                        procurement cycles and operational requirements. This eliminates repeated onboarding, speeds up
+                        decision-making and ensures consistent service throughout your IT asset lifecycle.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-white section ">
+        <div class="container">
+            <div class="section-header">
+                <h2>End-to-End <em>IT Lifecycle</em> Management Solutions</h2>
+                <p class="section-sub">Whether you need to retire old hardware responsibly, procure at scale, or rent
+                    equipment for a project, we have a managed solution for all.</p>
+            </div>
+            <div class="solutions-grid solutions-grid--five">
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-boxes"></i></div>
+                    <h3>Bulk Hardware Procurement</h3>
+                    <p>Supply your organization with premium refurbished laptops, desktops, workstations and
+                        peripherals. Grade A condition, custom configuration and bulk pricing from 10 units. We handle
+                        sourcing, audit, configuration and delivery across Malaysia.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h3>Corporate IT Rental &amp; Leasing</h3>
+                    <p>Scale IT capacity without capital expenditure. Rental from single-day event support to multi-year
+                        operational leases. Configured, delivered and collected nationwide. Ideal for training, project
+                        teams and CapEx-to-OpEx conversion.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>ITAD &amp; Data Wiping</h3>
+                    <p>Third-party IT Asset Disposition with NIST 800-88-aligned data destruction. Data-destruction
+                        records and chain-of-custody documentation support audit and compliance requirements.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>E-Waste &amp; Sustainability</h3>
+                    <p>Responsible e-waste disposal through appropriate recovery channels. We prioritize reuse and
+                        responsible recycling and can provide lifecycle information to support sustainability reporting.
+                    </p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h3>IT Asset Buyback</h3>
+                    <p>Turn eligible retiring IT assets into working capital through fair-market valuation, a
+                        coordinated collection process and secure data wiping before assets leave your premises.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gray section ">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sectors <em>We Serve</em></h2>
+                <p class="section-sub">Trusted by organizations across Malaysia for industry-specific IT solutions that
+                    improve performance, reduce costs, simplify lifecycle management and align with the operational and
+                    compliance requirements of every sector.</p>
+            </div>
+            <div class="sectors-grid sectors-grid--5 sectors-grid--light">
+                <article class="sector-card">
+                    <div class="sector-icon"><i class="fas fa-building"></i></div>
+                    <h3>Corporate &amp; Enterprise</h3>
+                    <p>Keep your workforce productive with scalable IT solutions for organizations of every size. From
+                        <a href="/solutions/bulk-procurement">bulk procurement</a> and <a
+                            href="/solutions/rental">project-based rentals</a> to <a href="/solutions/bulk-procurement">IT refresh cycles</a> and <a href="/solutions/itad">responsible
+                        asset retirement</a>, we simplify IT fleet management through a single, reliable partner.</p>
+                </article>
+                <article class="sector-card">
+                    <div class="sector-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Educational Institutions</h3>
+                    <p>Equip classrooms, computer labs and campuses with reliable technology. We provide bulk laptops
+                        and Chromebooks customized to meet academic requirements, with an extendable warranty of 6-12
+                        months and delivery aligned with academic schedules.</p>
+                </article>
+                <article class="sector-card">
+                    <div class="sector-icon"><i class="fas fa-hospital"></i></div>
+                    <h3>Healthcare</h3>
+                    <p>Reliable IT infrastructure for hospitals, clinics and healthcare providers where security and
+                        uptime are critical. We support secure hardware deployment, compliant data handling and rapid
+                        device replacement to keep essential services running.</p>
+                </article>
+                <article class="sector-card">
+                    <div class="sector-icon"><i class="fas fa-landmark"></i></div>
+                    <h3>Government &amp; Public Sector</h3>
+                    <p>Supporting government agencies with dependable <a href="/solutions/bulk-procurement">IT
+                            procurement</a>, large-scale deployments and formal tender processes, together with
+                        documented handling of retired equipment through data wiping and chain-of-custody processes.</p>
+                </article>
+                <article class="sector-card">
+                    <div class="sector-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Professional &amp; Financial Services</h3>
+                    <p>Protect sensitive business information with secure <a href="/solutions/itad">ITAD services</a>
+                        and documentation for internal audit requirements across law firms, accounting and finance
+                        institutions and consultancies.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-white section ">
+        <div class="container">
+            <div class="section-header">
+                <h2>How We <em>Work With You</em></h2>
+            </div>
+            <div class="solutions-grid solutions-grid--reviewed-four">
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Assessment Before Commitment</h3>
+                    <p>Before any engagement, we understand your current fleet age and condition, timeline, budget
+                        constraints and compliance requirements. We then recommend which service or combination makes
+                        the most sense.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-file-invoice"></i></div>
+                    <h3>Formal Quotations</h3>
+                    <p>Detailed specifications, pricing, timeline, warranty terms and service conditions in black and
+                        white. No hidden fees. Quotations are suitable for budget justification and internal approvals.
+                    </p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Dedicated Contact</h3>
+                    <p>A single point of contact manages your engagement from specification definition to warranty
+                        support. No need to juggle multiple vendors; one team member owns the relationship.</p>
+                </article>
+                <article class="sol-card">
+                    <div class="sol-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Transparent Pricing</h3>
+                    <p>We explain how pricing is structured: per-unit for hardware, per-day for rental and per-device
+                        for ITAD. Volume discounts are disclosed, and pricing is consistent and auditable.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gray section ">
+        <div class="container">
+            <div class="cta-band">
+                <h2>Discuss Your <em>IT Lifecycle</em></h2>
+                <p>Tell us what stage of the IT lifecycle you are managing right now and get expert recommendations
+                    based on your current IT requirements and future plans. No obligation to proceed.</p><a
+                    href="/contact" class="btn btn-teal btn-lg">Get an Assessment</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo-wrap" style="margin-bottom:1.25rem;"><img src="/images/ec-logo.png"
+                            alt="Easy Connect Solutions" class="footer-brand-logo">
+                        <div class="logo-text footer-logo">Easy Connect<span>MALAYSIA</span></div>
+                    </div>
+                    <p>Malaysia's premier sustainable IT solutions provider.</p>
+                    <div class="social-row"><a href="https://www.linkedin.com" target="_blank" rel="noopener"><i
+                                class="fab fa-linkedin-in"></i></a><a href="https://www.instagram.com/easyconnectmy/"
+                            target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a><a
+                            href="https://www.facebook.com/profile.php?id=61589531565872" target="_blank"
+                            rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="https://wa.me/601120906561"
+                            target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></div>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/products">Products</a></li>
+                        <li><a href="/solutions">Solutions</a></li>
+                        <li><a href="/resources">Resources</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+                        <li><a href="/refurbishment-policy">Refurbishment Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:0.4rem;">+6011 2090 6561
+                    </p>
+                    <p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:1.25rem;">
+                        info@easyconnect.my</p><a href="/contact" class="btn btn-outline-white">Get a Quote</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Easy Connect Solutions Malaysia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="/js/lang.js?v=20260825_11"></script>
+    <script src="/js/app.js?v=20260825_11"></script>
+</body>
+
+</html>

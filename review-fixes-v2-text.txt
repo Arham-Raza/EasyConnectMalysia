@@ -1,0 +1,132 @@
+﻿/home/ Page
+URL mein /home nahi aa raha.
+
+
+
+/about/ Page
+
+Link to /e-waste page
+
+I guess ye heading wo light blue color mein hogi to ziada sahi lage gi. Jo blue theme mein hai (jo buttons ka color hai). 
+Im ot sure about it, kr k dekh lena.
+
+
+Thori choti picture lagao. Width is fine but length choti honi chahiye becz this extra space looks bad. Same goes for all pages. Jahan tak text hai wahan tak ki image ho.OR
+We can move text downwards takay text se upar or neeche equal empty space ho. Kr k dekh lena jo acha lage wo krdena. But jo karo sare pages mein same rakhna.
+
+
+Our Vision -> blue like before
+Our Mission -> orange like before
+Core Values -> same size as â€œOur visionâ€ and â€œour missionâ€
+
+
+
+ye CTA section aise overlap hi rahe ga? If yes, then keep it consistent across all pages. And if not, tab bhi sare pages mein hir same hi rakhna.
+
+/products/ Page
+
+Remove this button!! products explore krne kahan jayein? Products k page p hi hain hum.
+
+
+
+You can expand the circled text. 2 lines mein ajaye ga I guess
+
+
+Wohi image size wala issue.
+
+
+Expand the text under the heading
+
+
+Name the button as â€œEnquire About Productsâ€
+
+
+Remove this text.
+
+/products/business-series page
+
+Arrange cards in the described manner.
+Jo cut kia hai wo remove krna hai.
+
+Arayy bulk pricing (transparent) wala button to rakhna than a a sirf blue wala button hatana tha.
+
+
+
+/products/students Page
+
+
+
+
+
+
+
+Arrange cards in this manner
+
+
+Center the cards
+Remove the enquire button from each card and just put one blur button under the cards
+
+
+
+
+Blue button in centre
+
+/products/workstations page
+
+
+
+Arrange cards in this manner
+
+
+Center the cards
+One enquire button beneath all cards.
+
+
+
+Link sustainable IT practices to e-waste page
+
+
+Bullets look odd
+Expand the note and write it like;
+â€œNote: Workstation requirements are specific to software and workload. We recommend a brief consultation to understand your application stack and performance bottleneck.â€
+
+/products/gaming page
+
+
+
+This entire section needs to be fixed. The text is not same. There were supposed to be no cards.
+GPU Stress-Testing & Thermal Performance Verification
+Standard refurbished laptop testing includes checking CPU and RAM, but gaming devices demand more. We run sustained GPU load tests to verify:
+Thermal performance under extended load (no thermal throttling observed)
+Display refresh rate consistency (144Hz actually achieves 144fps, not variable refresh)
+GPU memory bandwidth under sustained rendering
+Battery capacity and power delivery stability during gaming sessions
+Cooling fan noise and thermal management
+Every gaming unit we supply has passed these verification steps. This is not marketing; it is engineering validation.
+
+
+Remove the enquire button from each card and place one blue enquire button under these cards.
+
+
+Answers of FAQs are not the ones I wrote. Plz look into it.
+
+/products/editing/ Page
+
+
+
+Arrange cards in this manner
+
+
+Arrange cards in any manner you prefer. Pehla wala ziada sahi hai I guess.
+And instead of enquire button in each card, keep just one enquire button under the cards.
+
+
+These bullets look bad. Keep it left-aligned but in the centre.
+
+
+
+
+
+
+
+

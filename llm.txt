@@ -1,0 +1,56 @@
+# Easy Connect Solutions Malaysia - LLM Context
+
+## About
+Easy Connect Solutions is an IT hardware supplier and technology lifecycle services provider based in Shah Alam, Selangor, Malaysia.
+
+## Products
+- Refurbished business laptops: Dell Latitude, HP EliteBook and Lenovo ThinkPad
+- Student and institutional laptops, including selected Chromebooks
+- Professional workstations: HP Z-Series and Dell Precision
+- Gaming laptops: ASUS ROG, Acer Nitro, MSI and Lenovo Legion
+- Apple MacBook Pro and iMac devices for creative workflows
+- Desktops, monitors and computer accessories
+
+## Solutions
+- IT asset disposition and secure data handling
+- Responsible e-waste management and sustainability support
+- Short- and long-term IT equipment rental
+- Bulk hardware procurement and fleet configuration
+- IT asset buyback and value recovery
+
+Specific standards, certificates, warranty terms, turnaround times, savings figures and stock availability depend on the written quotation and confirmed service scope. They must not be inferred from this summary.
+
+## Coverage
+Easy Connect Solutions serves organizations across Malaysia. Delivery, collection and on-site availability depend on location and project scope.
+
+## Contact
+- Phone and WhatsApp: +6011 2090 6561
+- Email: info@easyconnect.my
+- Location: Shah Alam, Selangor, Malaysia
+- Facebook: https://www.facebook.com/profile.php?id=61589531565872
+- Instagram: https://www.instagram.com/easyconnectmy/
+
+## Website
+- / - Home
+- /about - About Easy Connect Solutions, vision, mission, values, brands and audit process
+- /products - Product overview
+- /products/business-series
+- /products/students
+- /products/workstations
+- /products/gaming
+- /products/editing
+- /solutions - Solutions overview
+- /solutions/itad
+- /solutions/e-waste
+- /solutions/rental
+- /solutions/bulk-procurement
+- /solutions/buyback
+- /resources
+- /resources/blog
+- /resources/buying-guides
+- /resources/case-studies
+- /resources/faqs
+- /contact
+- /privacy-policy
+- /terms-and-conditions
+- /refurbishment-policy

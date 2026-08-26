@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Equipment Rental Malaysia | Laptop &amp; Computer Leasing</title>
+    <meta name="description" content="Flexible laptop, desktop, monitor and workstation rental for Malaysian projects, events, temporary teams and longer-term operations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css?v=20260825_11">
+    <link rel="icon" type="image/png" href="/images/ec-logo.png">
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div>
+<nav class="navbar navbar--solid" id="navbar">
+    <div class="nav-inner">
+        <a href="/home" class="logo-wrap"><img src="/images/ec-logo.png" alt="Easy Connect Solutions" class="logo-img"></a>
+        <ul class="nav-links">
+            <li><a href="/about">About Us</a></li>
+            <li class="has-dropdown"><a href="/products">Products <i class="fas fa-chevron-down nav-chevron"></i></a><ul class="dropdown"><li><a href="/products/business-series">Business Series</a></li><li><a href="/products/students">Students</a></li><li><a href="/products/workstations">Workstations</a></li><li><a href="/products/gaming">Gaming</a></li><li><a href="/products/editing">Editing</a></li></ul></li>
+            <li class="has-dropdown"><a href="/solutions">Solutions <i class="fas fa-chevron-down nav-chevron"></i></a><ul class="dropdown"><li><a href="/solutions/itad">ITAD &amp; Data Wiping</a></li><li><a href="/solutions/e-waste">E-Waste &amp; Sustainability</a></li><li><a href="/solutions/rental">Rental &amp; Corporate Leasing</a></li><li><a href="/solutions/bulk-procurement">Bulk Procurement</a></li><li><a href="/solutions/buyback">IT Asset Buyback</a></li></ul></li>
+            <li class="has-dropdown"><a href="/resources">Resources <i class="fas fa-chevron-down nav-chevron"></i></a><ul class="dropdown"><li><a href="/resources/blog">Blog</a></li><li><a href="/resources/buying-guides">Buying Guides</a></li><li><a href="/resources/case-studies">Case Studies</a></li><li><a href="/resources/faqs">FAQs</a></li></ul></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="lang-switcher"><button class="lang-btn active" onclick="setLanguage('en')">EN</button><button class="lang-btn" onclick="setLanguage('ms')">MS</button><button class="lang-btn" onclick="setLanguage('zh')">ZH</button></div>
+            <a href="/contact" class="btn btn-navy">Get a Quote</a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="/about" onclick="closeMobileMenu()" data-i18n="navAbout">About Us</a></li>
+        <li class="mobile-has-dropdown">
+            <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Products <i class="fas fa-chevron-down"></i></button>
+            <ul class="mobile-sub">
+                <li><a href="/products/business-series" onclick="closeMobileMenu()">Business Series</a></li>
+                <li><a href="/products/students" onclick="closeMobileMenu()">Students</a></li>
+                <li><a href="/products/workstations" onclick="closeMobileMenu()">Workstations</a></li>
+                <li><a href="/products/gaming" onclick="closeMobileMenu()">Gaming</a></li>
+                <li><a href="/products/editing" onclick="closeMobileMenu()">Editing</a></li>
+            </ul>
+        </li>
+        <li class="mobile-has-dropdown">
+            <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Solutions <i class="fas fa-chevron-down"></i></button>
+            <ul class="mobile-sub">
+                <li><a href="/solutions/itad" onclick="closeMobileMenu()">ITAD &amp; Data Wiping</a></li>
+                <li><a href="/solutions/e-waste" onclick="closeMobileMenu()">E-Waste &amp; Sustainability</a></li>
+                <li><a href="/solutions/rental" onclick="closeMobileMenu()">Rental &amp; Corporate Leasing</a></li>
+                <li><a href="/solutions/bulk-procurement" onclick="closeMobileMenu()">Bulk Procurement</a></li>
+                <li><a href="/solutions/buyback" onclick="closeMobileMenu()">IT Asset Buyback</a></li>
+            </ul>
+        </li>
+        <li class="mobile-has-dropdown">
+            <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Resources <i class="fas fa-chevron-down"></i></button>
+            <ul class="mobile-sub">
+                <li><a href="/resources/blog" onclick="closeMobileMenu()">Blog</a></li>
+                <li><a href="/resources/buying-guides" onclick="closeMobileMenu()">Buying Guides</a></li>
+                <li><a href="/resources/case-studies" onclick="closeMobileMenu()">Case Studies</a></li>
+                <li><a href="/resources/faqs" onclick="closeMobileMenu()">FAQs</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a href="/contact" class="btn btn-navy" onclick="closeMobileMenu()" style="margin-top:2rem;" data-i18n="btnQuote">Get a Quote</a>
+</div>
+
+<section class="section-white inner-banner">
+    <div class="container inner-banner-content">
+        <div class="breadcrumb"><a href="/home">Home</a><span class="breadcrumb-sep"><i class="fas fa-chevron-right"></i></span><a href="/solutions">Solutions</a><span class="breadcrumb-sep"><i class="fas fa-chevron-right"></i></span><span>Rental &amp; Corporate Leasing</span></div>
+        <h1>Corporate Laptop, Computer &amp; <em>IT Equipment Rental in Malaysia</em></h1>
+        <p>Whether you need 10 laptops for a one-day training session, 200 computers for an examination centre, or a multi-year corporate IT leasing program, Easy Connect provides flexible rental solutions tailored to your organization.</p>
+        <div class="inner-banner-actions">
+            <a href="/contact" class="btn btn-outline-white">Request a Rental Quote</a>
+        </div>
+    </div>
+</section>
+
+<section class="section-gray section ">
+    <div class="container">
+        <div class="two-col-content">
+            <div class="prose-block">
+                <div class="tag-pill" style="margin-bottom: 1.5rem;"><i class="fas fa-handshake"></i> FLEXIBLE LEASING</div>
+                <p style="margin-bottom:1.5rem;">We supply professionally refurbished business-grade laptops, desktops, workstations, monitors and accessories, fully configured to your specifications before delivery anywhere in Malaysia. Every rental includes deployment support, technical assistance throughout the rental period, secure collection and <a href="/solutions/itad">certified data sanitization</a> through our authorized ITAD partners before devices are refurbished, remarketed or responsibly recycled.</p>
+                <p style="margin-bottom:2rem;">Instead of investing heavily in hardware that may only be needed temporarily, organizations can reduce upfront capital expenditure while supporting a more sustainable circular IT lifecycle through IT equipment rental.</p>
+            </div>
+            <div class="solution-intro-media"><img src="/images/rental-service.png" alt="Business laptops prepared for corporate rental" style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r);"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-white section ">
+    <div class="container">
+        <div class="section-header"><h2>Why Rent <em>Instead of Buying?</em></h2></div>
+        <div class="technical-copy" style="max-width: 1000px;">
+            <p>Buying hardware makes sense when equipment will remain in service for many years. Rental is often the better option when organizations need flexibility.</p>
+            <p style="margin-top:1.5rem; margin-bottom: 0.75rem;">Benefits include:</p>
+            <ul>
+                <li>Lower upfront investment</li>
+                <li>Preserve cash flow</li>
+                <li>Convert CapEx into predictable OpEx</li>
+                <li>Scale devices up or down as projects change</li>
+                <li>No storage of unused equipment</li>
+                <li>No end-of-life disposal management</li>
+                <li>Latest business-grade hardware</li>
+                <li>Sustainable IT lifecycle management</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-gray section ">
+    <div class="container">
+        <div class="section-header">
+            <h2>Laptop &amp; Computer Rental Solutions for <em>Every Business Requirement</em></h2>
+        </div>
+        <div class="series-cards series-cards--three">
+            <div class="series-card" style="height: 100%;">
+                <div class="pcard-icon teal" style="width:48px;height:48px;border-radius:12px;margin-bottom:1rem;"><i class="fas fa-calendar-day"></i></div>
+                <h4>Event &amp; Short-Term Laptop Rental (1 Day - 3 Months)</h4>
+                <div style="flex: 1;">
+                    <p style="margin-bottom: 0.25rem;">Ideal for:</p>
+                    <ul class="plain-bullet-list" style="margin-bottom: 0.5rem; margin-top: 0;">
+                        <li>Corporate training</li>
+                        <li>Conferences</li>
+                        <li>Product launches</li>
+                        <li>Examination centres</li>
+                        <li>Temporary offices</li>
+                        <li>Seasonal workforce expansion</li>
+                    </ul>
+                    <p style="margin-top:0;">Business laptops are configured to your requirements before dispatch. Where possible, we can pre-install your required operating system, software, user accounts and network settings, helping reduce deployment time and ensuring devices are ready for use upon delivery.</p>
+                </div>
+            </div>
+            <div class="series-card" style="height: 100%;">
+                <div class="pcard-icon teal" style="width:48px;height:48px;border-radius:12px;margin-bottom:1rem;"><i class="fas fa-project-diagram"></i></div>
+                <h4>Project-Based Computer Rental (3 - 12 Months)</h4>
+                <div style="flex: 1;">
+                    <p style="margin-bottom:0;">Perfect for organizations expanding project teams, contractors, consultants, software development, audits, or temporary operations.</p>
+                    <p style="margin-top:0.5rem;">Instead of purchasing new hardware, rent devices only for the required duration. Once the project ends, equipment is collected, securely data-wiped through our certified ITAD partners, and prepared for its next lifecycle through refurbishment or <a href="/solutions/e-waste" style="color: var(--teal-dark); font-weight: 700;">responsible recycling</a>.</p>
+                </div>
+            </div>
+            <div class="series-card" style="height: 100%;">
+                <div class="pcard-icon teal" style="width:48px;height:48px;border-radius:12px;margin-bottom:1rem;"><i class="fas fa-building"></i></div>
+                <h4>Corporate Laptop Leasing &amp; IT Fleet Rental (1-3 Years)</h4>
+                <div style="flex: 1;">
+                    <p style="margin-bottom: 0.25rem;">For organizations looking to convert hardware investment from CapEx to OpEx, long-term leasing provides predictable monthly costs without managing depreciation or asset disposal. Fleet leasing includes:</p>
+                    <ul class="plain-bullet-list" style="margin-bottom: 0; margin-top: 0;">
+                        <li>Custom hardware specifications</li>
+                        <li>RAM &amp; SSD upgrades</li>
+                        <li>Software installation (where applicable)</li>
+                        <li>Windows deployment</li>
+                        <li>Asset tagging</li>
+                        <li>BIOS configuration</li>
+                        <li>Corporate imaging</li>
+                        <li>Scheduled refresh programs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-white section ">
+    <div class="container">
+        <div class="section-header"><h2>Our Rental Process: <em>From Request to Return</em></h2></div>
+        <div class="sol-detail-grid">
+            <article class="sol-feature"><div class="sol-feature-num">01</div><h4>Rental Enquiry</h4><p>Submit requirements via contact form, email, or WhatsApp: device type/specification, quantity, duration, delivery location, configuration requirements. We respond within one business day with availability and pricing.</p></article>
+            <article class="sol-feature"><div class="sol-feature-num">02</div><h4>Device Configuration</h4><p>Every laptop or desktop is prepared according to your requirements before dispatch. Software installation wherever possible, operating system deployment, security settings, network configuration, asset tagging and hardware upgrades are completed prior to delivery so equipment is ready to use immediately.</p></article>
+            <article class="sol-feature"><div class="sol-feature-num">03</div><h4>Nationwide Delivery</h4><p>Tracked delivery to your premises, event venue, or multiple locations across Peninsular Malaysia. For large orders, a coordinated delivery schedule is provided with tracking references.</p></article>
+            <article class="sol-feature"><div class="sol-feature-num">04</div><h4>On-Call Support</h4><p>Our technical team is available throughout the rental period. Hardware failures are resolved within 24 hours; a replacement unit is dispatched, and the failed unit is collected. For on-site event support, technical staff is available where required.</p></article>
+            <article class="sol-feature" style="grid-column: 1 / -1; justify-self: center; width: 100%; max-width: 650px;">
+                <div class="sol-feature-num">05</div>
+                <h4>Collection, Data Wiping &amp; Responsible IT Lifecycle</h4>
+                <div>
+                    <p style="margin-bottom: 0.5rem;">At the end of the rental period, equipment is collected from your location and devices undergo <a href="/solutions/itad" style="color: var(--teal-dark); font-weight: 700;">certified data sanitization</a> by our authorized ITAD partners, with certificates of data destruction available upon request. Depending on condition, equipment is then:</p>
+                    <ul class="plain-bullet-list">
+                        <li style="font-size: 0.85rem; color: var(--body);">professionally refurbished for reuse,</li>
+                        <li style="font-size: 0.85rem; color: var(--body);">remarketed,</li>
+                        <li style="font-size: 0.85rem; color: var(--body);">or its useful parts are recycled through <a href="/solutions/e-waste" style="color: var(--teal-dark); font-weight: 700;">licensed e-waste recycling</a> partners.</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section-gray section ">
+    <div class="container">
+        <div class="cta-band">
+            <h2>Need to Rent Laptops or Computers in Malaysia?</h2>
+            <div style="max-width: 720px; margin: 1.5rem auto 1.5rem; text-align: left; display: inline-block;">
+                <div style="margin-bottom: 0.75rem; color: rgba(255, 255, 255, .85);">Tell us:</div>
+                <ul class="requirements-list" style="margin-top: 0;">
+                    <li>Device type</li>
+                    <li>Quantity</li>
+                    <li>Rental duration</li>
+                    <li>Delivery location</li>
+                    <li>Configuration requirements</li>
+                </ul>
+                <p style="max-width: 650px; margin: 1.5rem 0 0 0; color: rgba(255,255,255,0.8);">Or if you’re unsure about what device to rent, tell your use case to our rental expert to get the most optimized rental quotation.</p>
+            </div>
+            <div class="cta-actions"><a href="/contact" class="btn btn-teal btn-lg">Speak to a Rental Specialist</a></div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand"><div class="logo-wrap" style="margin-bottom:1.25rem;"><img src="/images/ec-logo.png" alt="Easy Connect Solutions" class="footer-brand-logo"><div class="logo-text footer-logo">Easy Connect<span>MALAYSIA</span></div></div><p>Malaysia's premier sustainable IT solutions provider.</p><div class="social-row"><a href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a><a href="https://www.instagram.com/easyconnectmy/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/profile.php?id=61589531565872" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="https://wa.me/601120906561" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></div></div>
+            <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="/about">About Us</a></li><li><a href="/products">Products</a></li><li><a href="/solutions">Solutions</a></li><li><a href="/resources">Resources</a></li><li><a href="/contact">Contact</a></li></ul></div>
+            <div class="footer-col"><h5>Legal</h5><ul><li><a href="/privacy-policy">Privacy Policy</a></li><li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li><li><a href="/refurbishment-policy">Refurbishment Policy</a></li></ul></div>
+            <div class="footer-col"><h5>Contact</h5><p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:0.4rem;">+6011 2090 6561</p><p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:1.25rem;">info@easyconnect.my</p><a href="/contact" class="btn btn-outline-white">Get a Quote</a></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Easy Connect Solutions Malaysia. All rights reserved.</p></div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="/js/lang.js?v=20260825_11"></script>
+<script src="/js/app.js?v=20260825_11"></script>
+</body>
+</html>

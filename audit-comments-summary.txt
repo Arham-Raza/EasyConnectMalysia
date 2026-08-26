@@ -1,0 +1,326 @@
+﻿[0] link to /products/ page
+ANCHOR: Button: Explore product range 
+Button: Explore IT Solutions
+
+[1] link to /solutions/ page
+ANCHOR: Button: Explore product range 
+Button: Explore IT Solutions
+
+[2] Find out more -> blue button acc to theme of website. Each button taking user to respective solution pages
+ANCHOR: 
+
+[3] Design references for reviews section
+ANCHOR: 
+
+[4] Link to bulk procurement
+ANCHOR: From bulk procurement to secure data disposal, our specialists are ready to help you reduce costs and stay compliant.
+
+[5] Link to itad page
+ANCHOR: From bulk procurement to secure data disposal, our specialists are ready to help you reduce costs and stay compliant.
+
+[6] Link to itad page
+ANCHOR: End-to-end IT lifecycle solutions, with secure data wiping and disposal carried out through certified partners, helping businesses extend asset value through secure, compliant and sustainable lifecycl
+
+[7] Link to e-waste page
+ANCHOR: End-to-end IT lifecycle solutions, with secure data wiping and disposal carried out through certified partners, helping businesses extend asset value through secure, compliant and sustainable lifecycl
+
+[8] Link to /services page
+ANCHOR: Button: Explore our Services
+
+[9] Link to itad page
+ANCHOR: Every device we supply passes our 24-point verified audit: military-grade data wiping, MemTest86 diagnostics, physical restoration and custom OS configuration before deployment. When it leaves our fac
+
+[10] Link to e-waste page
+ANCHOR: Every component reused via DOE-licensed recovery channels extending the deviceâ€™s lifespan by 3-5 years, promoting e-waste recycling.
+
+[11] Link to rental page
+ANCHOR: Whether youâ€™re looking for the best corporate leasing solutions, need refurbished IT equipment, secure IT asset disposal, or require sustainable e-waste management, our team is ready to help.
+
+[12] Link to itad
+ANCHOR: Whether youâ€™re looking for the best corporate leasing solutions, need refurbished IT equipment, secure IT asset disposal, or require sustainable e-waste management, our team is ready to help.
+
+[13] Link to e- waste page
+ANCHOR: Whether youâ€™re looking for the best corporate leasing solutions, need refurbished IT equipment, secure IT asset disposal, or require sustainable e-waste management, our team is ready to help.
+
+[14] Link to bulk procurement page
+ANCHOR: Supply your organization with Grade A refurbished IT equipment. From 10-unit office deployments to 500+ unit IT Refresh Cycles across Malaysia, we will take care of it all.
+
+[15] Link to rental page
+ANCHOR: Whether you need a single laptop or a fleet of devices, we offer flexible purchase and rental options to suit every requirement. Our professionally refurbished laptops, desktops, workstations and acce
+
+[16] Link to contacts page, or contacts page mein 3 headings banayein gay  / 1. Form / 2. Retail (includes address and Map) / 3. Onine store (includes link and name)
+ANCHOR: Whether you need a single laptop or a fleet of devices, we offer flexible purchase and rental options to suit every requirement. Our professionally refurbished laptops, desktops, workstations and acce
+
+[17] Direct link to online store / Keep TechRevelo bold
+ANCHOR: Whether you need a single laptop or a fleet of devices, we offer flexible purchase and rental options to suit every requirement. Our professionally refurbished laptops, desktops, workstations and acce
+
+[18] Link to buyback page
+ANCHOR: Whether you need a single laptop or a fleet of devices, we offer flexible purchase and rental options to suit every requirement. Our professionally refurbished laptops, desktops, workstations and acce
+
+[19] All headings in h3, plus the changes numair bhai told in the meeting
+ANCHOR: 
+
+[20] Simplify it hjust k we make sure k kisi ka koi data hamare pass nahi hain. We wipe everything before device leaves your premises
+ANCHOR: All data is securely wiped by our certified data destruction partners before any device leaves your premises, ensuring no information remains on the hardware.
+
+[21] Link to itad page
+ANCHOR: All data is securely wiped by our certified data destruction partners before any device leaves your premises, ensuring no information remains on the hardware.
+
+[22] Link to contact page / blue button
+ANCHOR: If youâ€™re unsure about your requirements, Speak with a Hardware Specialist.
+
+[23] Same transparent â€œBulk Pricingâ€ Button
+ANCHOR: 
+
+[24] 30% cost saving / 72h swap guarantee
+ANCHOR: 
+
+[25] core i5 / i7 / 14â€ /15â€ display
+ANCHOR: 
+
+[26] core i5 / i7
+ANCHOR: 
+
+[27] Inki bhi specification add krni hai (wohi hashtags wale stly mein). Inke separate cards banein gay
+ANCHOR: HP Elite Dragonfly | HP Spectre is also available for professionals seeking premium design, high-resolution displays and strong performance for executive and creative business workloads.
+
+[28] core i5 / i7 / T480 / T490 / X1 carbon variants
+ANCHOR: 
+
+[29] Iske hashtags mein bhi specifications add krni hain
+ANCHOR: Acer TravelMate - Reliable Business Performance | Lightweight, durable business laptops with dependable performance, long battery life and enterprise security features for everyday productivity.
+
+[30] Blue button
+ANCHOR: Button: Reach Our Procurement Team
+
+[31] Same transparent â€œInstitution Bulk Ordersâ€ button
+ANCHOR: 
+
+[32] 30-40% below new price
+ANCHOR: 
+
+[33] Link to bulk procurement page
+ANCHOR: We know the procurement process of the education sector and we provide formal quotations that are acceptable for the finance committee. We help with the ordering process and the deliveries are made ac
+
+[34] core i3 / i5
+ANCHOR: 
+
+[35] Core i5 / Ryzen 5
+ANCHOR: 
+
+[36] Transparent button
+ANCHOR: Button: Get a Custom Quote
+
+[37] up to 512GB ECC RAM
+ANCHOR: 
+
+[38] Intel Zeon / core i9 / upto 64GB RAM / 15â€ - 17â€ display
+ANCHOR: 
+
+[39] Link to e-waste page
+ANCHOR: Refurbished workstations can cost 40-60% less than new systems while delivering comparable performance for professional workloads. They also support sustainable IT practices by extending the lifecycle
+
+[40] note
+ANCHOR: Workstation requirements are specific to software and workload. We recommend a brief consultation to understand your application stack and performance bottleneck.
+
+[41] Blue button
+ANCHOR: Button: Get a Workstation Recommendation
+
+[42] Transparent button
+ANCHOR: Button: Power Up Your Game
+
+[43] As we have 4 products here so we can adjust in this manner or if there is something better you do that.
+ANCHOR: 
+
+[44] RTX 3060 / 3070/ 3080 / 144â€“240Hz IPS display / excellent thermal engineering
+ANCHOR: 
+
+[45] Include:  / 16GB RAM standard / 512GB NVMe
+ANCHOR: 
+
+[46] Include: / 144â€“165Hz display
+ANCHOR: 
+
+[47] Arham check kare ga. RTX 30 wali series dalni chahiye acc to numair bhai
+ANCHOR: The ideal gaming laptop depends on the types of games you play and your performance expectations. For a smooth gaming experience, look for a modern Intel Core i7/Core Ultra or AMD Ryzen 7 processor, a
+
+[48] Transparent button
+ANCHOR: Button: Find Your Creative Apple
+
+[49] Hashtags: / M1 Pro / M1 Max / M2 Pro  / 16GB - 64GB unified memory (RAM) / 14"/16" Retina XDR  / 512GBâ€“8TB SSD  / Portable Workstation  / All-Day Battery
+ANCHOR: 
+
+[50] Hashtags: / Apple M1 / M3 Processor  / 8GBâ€“24GB Unified Memory / 256GBâ€“2TB SSD / 24" 4.5K Retina Display / 60Hz Refresh Rate
+ANCHOR: iMac - Designed for Creative Professionals | High-resolution Retina displays, powerful Apple Silicon processors and an elegant all-in-one design make the iMac ideal for graphic designers, photographers, video editors and modern business workspac
+
+[51] Sirf apple se related rakhna hai baki hata dena hai
+ANCHOR: FAQs
+
+[52] Blue button
+ANCHOR: Button: Find Your Creative Device
+
+[53] Blue button
+ANCHOR: Button: Transform Your IT Operations
+
+[54] Link to itad page
+ANCHOR: Most organizations manage their IT lifecycle through multiple vendors: one for hardware, another for support, a third for data wiping and informal arrangements for asset disposal. This fragmentation c
+
+[55] Link to itad page
+ANCHOR: Easy Connect Solutions manages your entire IT lifecycle under a single relationship: hardware supply at the front end, lifecycle support throughout operational use and data destruction and asset recov
+
+[56] Link to bulk procurement page
+ANCHOR: Keep your workforce productive with scalable IT solutions for organizations of every size. From bulk procurement and project-based rentals to IT refresh cycles and responsible asset retirement, we hel
+
+[57] Link to rental pagee
+ANCHOR: Keep your workforce productive with scalable IT solutions for organizations of every size. From bulk procurement and project-based rentals to IT refresh cycles and responsible asset retirement, we hel
+
+[58] Link to bulk procurement
+ANCHOR: Keep your workforce productive with scalable IT solutions for organizations of every size. From bulk procurement and project-based rentals to IT refresh cycles and responsible asset retirement, we hel
+
+[59] Link to remarketing page
+ANCHOR: Keep your workforce productive with scalable IT solutions for organizations of every size. From bulk procurement and project-based rentals to IT refresh cycles and responsible asset retirement, we hel
+
+[60] Link to bulk procurement page
+ANCHOR: Supporting government agencies with dependable IT procurement, large-scale deployments and formal tender processes. Our services are designed to ensure secure and compliant handling of retired equipme
+
+[61] Link to ITAD page
+ANCHOR: Protect sensitive business information with secure ITAD services that include documentation that satisfies internal audit and regulatory requirements of law firms, accounting & finance institutions an
+
+[62] Transparent button
+ANCHOR: Button: Request a Data Destruction Quote
+
+[63] Link to /solutions/e-waste/ page
+ANCHOR: Hardware assessed for refurbishment potential. Units suitable for resale are restored. Hardware beyond reuse is transferred to our Corporate E-Waste Disposal service through DOE-licensed recycling par
+
+[64] Ink to e-waste page
+ANCHOR: IT Asset Disposition (ITAD) is the secure process of retiring outdated IT equipment. It includes inventory management, secure data destruction, refurbishment, recycling, and environmentally responsibl
+
+[65] Blue button
+ANCHOR: Button: Submit Your Asset List
+
+[66] Transparent button
+ANCHOR: Button: Request an E-Waste Assessment
+
+[67] Link to /solutions\itad\ page
+ANCHOR: Where required, storage devices are sanitized by our certified data destruction partners before equipment proceeds to recycling, with supporting documentation available for compliance and audit purpos
+
+[68] Link to /solutions/itad/ page
+ANCHOR: Yes, where requested. Storage devices can be sanitized by our certified data destruction partners before equipment proceeds to recycling. Supporting certificates are available upon completion.
+
+[69] Link to /solutions/buyback/ page
+ANCHOR: If your equipment still has resale potential, you may also be interested in our IT Asset Buyback or ITAD services.
+
+[70] Link to /solutions/itad/ page
+ANCHOR: If your equipment still has resale potential, you may also be interested in our IT Asset Buyback or ITAD services.
+
+[71] Blue button
+ANCHOR: Button: Discuss Your E-Waste Project
+
+[72] Transparent button
+ANCHOR: Button: Request a Rental Quote
+
+[73] Link to /solutions/Itad/ page
+ANCHOR: We supply professionally refurbished business-grade laptops, desktops, workstations, monitors and accessories, fully configured to your specifications before delivery anywhere in Malaysia. Every renta
+
+[74] Link to /solutions/e-waste page
+ANCHOR: Instead of purchasing new hardware, rent devices only for the required duration. Once the project ends, equipment is collected, securely data-wiped through our certified ITAD partners, and prepared fo
+
+[75] Link to /solutions/itad page
+ANCHOR: At the end of the rental period, equipment is collected from your location and devices undergo certified data sanitization by our authorized ITAD partners, with certificates of data destruction availa
+
+[76] Link to e-waste page
+ANCHOR: or its useful parts are recycled through licensed e-waste recycling partners.
+
+[77] Link to /solutions/e-waste page
+ANCHOR: or its useful parts are recycled through licensed e-waste recycling partners.
+
+[78] Blue button
+ANCHOR: Button: Speak to a Rental Specialist
+
+[79] Blue button
+ANCHOR: Button: Build Your IT Fleet
+
+[80] Link to data wiping page
+ANCHOR: We supply refurbished and new business laptops, desktops, workstations, monitors and accessories from leading brands including Dell, HP, Lenovo, Acer, Apple and more. Every deployment can be customize
+
+[81] Link to e-waste page
+ANCHOR: We supply refurbished and new business laptops, desktops, workstations, monitors and accessories from leading brands including Dell, HP, Lenovo, Acer, Apple and more. Every deployment can be customize
+
+[82] Link to buyback page
+ANCHOR: By combining procurement with responsible asset retirement, organizations reduce deployment complexity, maximize the value of retired equipment and minimize electronic waste.
+
+[83] Link to e-waste page
+ANCHOR: By combining procurement with responsible asset retirement, organizations reduce deployment complexity, maximize the value of retired equipment and minimize electronic waste.
+
+[84] Link to e-waste page
+ANCHOR: Recycled through licensed e-waste recovery partners if no longer reusable
+
+[85] Link to buyback page
+ANCHOR: If you're replacing existing business devices, we can assist through our wider IT lifecycle services. Eligible equipment may be purchased under our IT Asset Buyback program and securely processed thro
+
+[86] Link to itad page
+ANCHOR: If you're replacing existing business devices, we can assist through our wider IT lifecycle services. Eligible equipment may be purchased under our IT Asset Buyback program and securely processed thro
+
+[87] Link to e-waste page
+ANCHOR: If you're replacing existing business devices, we can assist through our wider IT lifecycle services. Eligible equipment may be purchased under our IT Asset Buyback program and securely processed thro
+
+[88] Link to e-waste page
+ANCHOR: Refurbished business laptops can reduce procurement costs while still delivering reliable performance for everyday business use. They also extend the lifecycle of existing IT equipment, helping organi
+
+[89] Blue button
+ANCHOR: Button: Let's Plan Your Deployment
+
+[90] Transparent button
+ANCHOR: Button: Unlock the Value of Your Retired Business IT Equipment
+
+[91] Link to itad page
+ANCHOR: Easy Connect purchases eligible business IT equipment from organizations across Malaysia, providing transparent market valuations based on the device model, age, specification, condition and quantity.
+
+[92] Link to itad page
+ANCHOR: Before equipment enters refurbishment or resale, storage devices undergo certified data sanitization through our authorized ITAD partners. Certificates of Data Destruction are available upon request t
+
+[93] Link to e-waste page
+ANCHOR: Where equipment remains suitable for reuse, it is refurbished and remarketed to extend its useful life. Devices beyond economical repair are processed through licensed e-waste recycling partners, help
+
+[94] Link to itad page
+ANCHOR: Once accepted, equipment is collected and transferred through our third-party IT Asset Disposition (ITAD) process. Storage devices are securely sanitized before refurbishment or recycling, with data d
+
+[95] Blue button
+ANCHOR: Button: Request a Buyback Valuation
+
+[96] Remove this page entirely
+ANCHOR: /solutions/remarketing/ Page
+
+[97] Transparent button
+ANCHOR: Button: Get Your Recovery Value Estimate
+
+[98] Link to buyback page
+ANCHOR: Standard IT asset buyback offers speed, certainty and immediate payment, making it the preferred option for older or high-volume equipment. However, if your organization owns newer business laptops, p
+
+[99] Link to online retail store  (shopee) / add more brand details
+ANCHOR: Devices such as Apple MacBook Pro, Dell XPS, Dell Latitude, Lenovo ThinkPad X1 Carbon, HP EliteBook, HP ZBook and similar premium business hardware continue to have strong demand across Malaysia's sec
+
+[100] Link to e-waste page
+ANCHOR: IT asset remarketing is designed for organizations that want to maximize the financial return from surplus business IT equipment rather than simply disposing of it. By extending the useful life of lap
+
+[101] Link to itad page
+ANCHOR: Combined with secure data wiping, professional refurbishment, optional hardware customization and responsible end-of-life recycling, remarketing forms an important part of a complete IT asset lifecycl
+
+[102] Link to buyback page
+ANCHOR: Simply send us your inventory list and our team will evaluate each category of equipment. We will recommend whether IT asset remarketing, IT asset buyback, or responsible recycling is likely to delive
+
+[103] Link to e-waste page
+ANCHOR: Simply send us your inventory list and our team will evaluate each category of equipment. We will recommend whether IT asset remarketing, IT asset buyback, or responsible recycling is likely to delive
+
+[104] Link to ITAD page
+ANCHOR: Approved equipment is collected, securely transported and professionally processed. All storage devices undergo secure data wiping before entering the resale process, with data destruction documentati
+
+[105] Lin with online shopee store
+ANCHOR: Rather than relying on a single sales channel, we actively market eligible devices across our corporate buyer network, business resellers and B2C retail channels (TechRevelo) throughout Malaysia. This
+
+[106] Link to e-waste page
+ANCHOR: If any equipment remains unsold at the end of the agreed remarketing period, you can choose to accept a market-based IT asset buyback, continue remarketing for a longer period or have the remaining eq
+
+[107] Blue button
+ANCHOR: Button: WhatsApp Your Device Inventory
+
