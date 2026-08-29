@@ -5516,3 +5516,18 @@ p a:not(.btn):hover,
     color: var(--primary);
     text-decoration: underline;
 }
+/* -------------------------------------------
+   GOOGLE TRANSLATE OVERRIDES
+------------------------------------------- */
+body {
+    top: 0 !important;
+    position: static !important;
+}
+.skiptranslate iframe,
+.goog-te-banner-frame {
+    display: none !important;
+}
+.goog-te-spinner-pos,
+.goog-logo-link {
+    display: none !important;
+}
