@@ -57,7 +57,6 @@
 .about-who-media,
 .product-intro-media {
     min-height: 0;
-    height: 320px;
 }
 
 .vmv-card--teal>h3 {
@@ -2384,15 +2383,17 @@ p {
 }
 
 .product-intro-media {
-    min-height: 390px;
-    height: auto !important;
-    aspect-ratio: 1/1;
     border-radius: var(--r-lg);
     overflow: hidden;
     box-shadow: var(--shadow-md);
+    height: 100%;
+    position: relative;
 }
 
 .product-intro-media img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2686,13 +2687,17 @@ p {
 
 /* Reviewed About page media treatment */
 .about-who-media {
-    min-height: 360px;
     border-radius: var(--r-lg);
     overflow: hidden;
     box-shadow: var(--shadow-md);
+    height: 100%;
+    position: relative;
 }
 
 .about-who-media img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -3149,7 +3154,7 @@ p {
     display: grid;
     grid-template-columns: .85fr 1.15fr;
     gap: 5rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 .content-split h2 {
@@ -4238,7 +4243,6 @@ p {
     font-size: 0.88rem;
     color: var(--body);
     line-height: 1.65;
-    flex: 1;
 }
 
 .sol-card .btn {
@@ -4323,6 +4327,11 @@ p {
     text-align: center;
     position: relative;
     overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    clear: both;
 }
 
 .cta-band::before {
@@ -4477,18 +4486,53 @@ p {
 .asset-type-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: .85rem;
+    gap: 1.25rem;
 }
 
 .asset-type-grid span {
     background: var(--white);
     border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: var(--r);
+    padding: 1.5rem 1rem;
     font-family: var(--font-h);
-    font-size: .82rem;
+    font-size: .88rem;
     font-weight: 600;
     text-align: center;
+    color: var(--heading);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+}
+
+.asset-type-grid span i {
+    font-size: 1.8rem;
+    color: var(--teal);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
+}
+
+.asset-type-grid span:hover {
+    border-color: rgba(41, 171, 226, 0.3);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
+    transform: translateY(-4px);
+    color: var(--primary);
+}
+
+.asset-type-grid span:hover i {
+    color: var(--primary);
+    transform: scale(1.15);
+}
+
+.asset-type-grid span small {
+    font-family: var(--font-b);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--body);
+    margin-top: -0.4rem;
+    line-height: 1.3;
 }
 
 @media (max-width:900px) {
@@ -4946,7 +4990,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: stretch;
 }
 
 @media (max-width:900px) {
@@ -4958,16 +5002,20 @@ p {
 
 /* Solution detail intros use real-world imagery, not decorative metric tiles. */
 .solution-intro-media {
-    min-height: 320px;
     border-radius: var(--r-lg);
     overflow: hidden;
     box-shadow: var(--shadow-md);
+    height: 100%;
+    min-height: 0;
+    position: relative;
 }
 
 .solution-intro-media img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    min-height: 320px;
     object-fit: cover;
 }
 
@@ -5197,10 +5245,6 @@ p {
     line-height: 1.65;
 }
 
-.sol-feature p a:not(.btn) {
-    color: var(--teal);
-    font-weight: 500;
-}
 
 /* Sol card icon */
 .sol-card-icon {
@@ -5446,4 +5490,20 @@ body {
     .series-cards {
         grid-template-columns: 1fr;
     }
+}
+
+/* ─── Global Linked Keywords (Inline Content Links) ─── */
+p a:not(.btn),
+.faq-a a:not(.btn),
+.plain-bullet-list a:not(.btn) {
+    color: var(--teal-dark);
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+p a:not(.btn):hover,
+.faq-a a:not(.btn):hover,
+.plain-bullet-list a:not(.btn):hover {
+    color: var(--primary);
+    text-decoration: underline;
 }
