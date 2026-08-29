@@ -136,7 +136,7 @@ doc.add_heading("Already confirmed", level=1)
 for item in [
     "Website domain: easyconnect.my",
     "Contact email: info@easyconnect.my",
-    "Phone and WhatsApp: +6011 2090 6561",
+    "Phone and WhatsApp: +60 13-532 2733",
     "Base location: Shah Alam, Selangor, Malaysia",
     "Facebook and Instagram links supplied",
     "Remarketing page removed",

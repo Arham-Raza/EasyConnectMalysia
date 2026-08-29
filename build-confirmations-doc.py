@@ -101,7 +101,7 @@ sections = [
         "Approved grading definitions for Grade A and any other grades offered.",
     ]),
     ("6. Marketing and operations", [
-        "Decision on WhatsApp chatbot implementation. The current site uses a direct WhatsApp link to +6011 2090 6561.",
+        "Decision on WhatsApp chatbot implementation. The current site uses a direct WhatsApp link to +60 13-532 2733.",
         "Preferred CMS and publishing workflow for future blog articles; the current release keeps the static Resources structure.",
         "LinkedIn company-page URL when available; the current link is generic LinkedIn.",
         "Final scope and timing for Malay and Chinese translations across long-form inner-page content.",
@@ -122,7 +122,7 @@ doc.add_heading("Current implementation decisions", level=1)
 for item in [
     "Remarketing has been removed from current navigation and search indexing because the audit explicitly requested its removal.",
     "Unverified guarantees and certifications are being replaced with neutral process wording until evidence is supplied.",
-    "The contact form submits to info@easyconnect.my and the WhatsApp number remains +6011 2090 6561.",
+    "The contact form submits to info@easyconnect.my and the WhatsApp number remains +60 13-532 2733.",
     "No fabricated testimonials, client names, maps, retail addresses or store URLs will be published.",
 ]:
     p = doc.add_paragraph(style="List Bullet")
