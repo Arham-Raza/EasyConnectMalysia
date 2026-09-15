@@ -8,6 +8,8 @@ DirectoryIndex index.html
     RewriteEngine On
     # Keep the approved landing page on its explicit clean URL.
     RewriteRule ^$ home/ [R=302,L]
+    # Direct alias for /itad shortcut
+    RewriteRule ^itad/?$ solutions/itad/ [R=301,L]
     # Removed service: return a clear Gone response instead of exposing stale content.
     RewriteRule ^solutions/remarketing/?$ - [G,L]
 </IfModule>
