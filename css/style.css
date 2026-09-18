@@ -4936,7 +4936,7 @@ p {
 }
 
 .faq-item.open .faq-a {
-    max-height: 400px;
+    max-height: 800px;
     padding-bottom: 1.2rem;
 }
 
