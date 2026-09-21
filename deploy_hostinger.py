@@ -69,9 +69,17 @@ def upload_tree(sftp, local_path, remote_path):
 
 
 def main():
+    key_file = Path.home() / ".ssh" / "id_rsa_hostinger"
+    pkey = None
+    if key_file.exists():
+        try:
+            pkey = paramiko.RSAKey.from_private_key_file(str(key_file))
+        except Exception:
+            pkey = None
+
     password = os.environ.get("EC_SSH_PASSWORD")
-    if not password:
-        raise RuntimeError("EC_SSH_PASSWORD is not set")
+    if not pkey and not password:
+        raise RuntimeError("Neither ~/.ssh/id_rsa_hostinger nor EC_SSH_PASSWORD is available")
 
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
     staging = f"{DOMAIN_ROOT}/public_html_staging_{stamp}"
@@ -79,15 +87,20 @@ def main():
 
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    client.connect(
-        HOST,
-        port=PORT,
-        username=USERNAME,
-        password=password,
-        timeout=45,
-        banner_timeout=45,
-        auth_timeout=45,
-    )
+    connect_kwargs = {
+        "hostname": HOST,
+        "port": PORT,
+        "username": USERNAME,
+        "timeout": 45,
+        "banner_timeout": 45,
+        "auth_timeout": 45,
+    }
+    if pkey:
+        connect_kwargs["pkey"] = pkey
+    else:
+        connect_kwargs["password"] = password
+
+    client.connect(**connect_kwargs)
 
     try:
         resolved = run_checked(client, f"readlink -f '{DOMAIN_ROOT}'")
