@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JJCH4KML"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W2JJCH4KML');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Easy Connect Solutions</title>
+    <meta name="description" content="The page you are looking for does not exist or has been moved. Explore Easy Connect Solutions for refurbished hardware, ITAD, rental, and e-waste services.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/png" href="/images/ec-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css?v=20260829_3">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <nav class="navbar navbar--solid" id="navbar">
+        <div class="nav-inner">
+            <a href="/home/" class="logo-wrap"><img src="/images/ec-logo.png" alt="Easy Connect Solutions" class="logo-img"></a>
+            <ul class="nav-links">
+                <li><a href="/about/">About Us</a></li>
+                <li class="has-dropdown"><a href="/products/">Products <i class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/products/business-series/">Business Series</a></li>
+                        <li><a href="/products/students/">Students</a></li>
+                        <li><a href="/products/workstations/">Workstations</a></li>
+                        <li><a href="/products/gaming/">Gaming</a></li>
+                        <li><a href="/products/editing/">Editing</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/solutions/">Solutions <i class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/solutions/itad/">ITAD &amp; Data Wiping</a></li>
+                        <li><a href="/solutions/e-waste/">E-Waste &amp; Sustainability</a></li>
+                        <li><a href="/solutions/rental/">Rental &amp; Corporate Leasing</a></li>
+                        <li><a href="/solutions/bulk-procurement/">Bulk Procurement</a></li>
+                        <li><a href="/solutions/buyback/">IT Asset Buyback</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/resources/">Resources <i class="fas fa-chevron-down nav-chevron"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="/resources/blog/">Blog</a></li>
+                        <li><a href="/resources/buying-guides/">Buying Guides</a></li>
+                        <li><a href="/resources/case-studies/">Case Studies</a></li>
+                        <li><a href="/resources/faqs/">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" onclick="setLanguage('en')">EN</button>
+                    <button class="lang-btn" onclick="setLanguage('ms')">MS</button>
+                    <button class="lang-btn" onclick="setLanguage('zh')">ZH</button>
+                </div>
+                <a href="/contact/" class="btn btn-navy">Get a Quote</a>
+                <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-header">
+            <span class="logo-text">Easy Connect</span>
+            <button class="mobile-close" id="mobileClose" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="/home/" onclick="closeMobileMenu()">Home</a></li>
+            <li><a href="/about/" onclick="closeMobileMenu()">About Us</a></li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Products <i class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/products/" onclick="closeMobileMenu()">All Products</a></li>
+                    <li><a href="/products/business-series/" onclick="closeMobileMenu()">Business Series</a></li>
+                    <li><a href="/products/students/" onclick="closeMobileMenu()">Students</a></li>
+                    <li><a href="/products/workstations/" onclick="closeMobileMenu()">Workstations</a></li>
+                    <li><a href="/products/gaming/" onclick="closeMobileMenu()">Gaming</a></li>
+                    <li><a href="/products/editing/" onclick="closeMobileMenu()">Editing</a></li>
+                </ul>
+            </li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Solutions <i class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/solutions/" onclick="closeMobileMenu()">All Solutions</a></li>
+                    <li><a href="/solutions/itad/" onclick="closeMobileMenu()">ITAD &amp; Data Wiping</a></li>
+                    <li><a href="/solutions/e-waste/" onclick="closeMobileMenu()">E-Waste &amp; Sustainability</a></li>
+                    <li><a href="/solutions/rental/" onclick="closeMobileMenu()">Rental &amp; Corporate Leasing</a></li>
+                    <li><a href="/solutions/bulk-procurement/" onclick="closeMobileMenu()">Bulk Procurement</a></li>
+                    <li><a href="/solutions/buyback/" onclick="closeMobileMenu()">IT Asset Buyback</a></li>
+                </ul>
+            </li>
+            <li class="mobile-has-dropdown">
+                <button class="mobile-dropdown-btn" onclick="toggleMobileDropdown(this)">Resources <i class="fas fa-chevron-down"></i></button>
+                <ul class="mobile-sub">
+                    <li><a href="/resources/blog/" onclick="closeMobileMenu()">Blog</a></li>
+                    <li><a href="/resources/buying-guides/" onclick="closeMobileMenu()">Buying Guides</a></li>
+                    <li><a href="/resources/case-studies/" onclick="closeMobileMenu()">Case Studies</a></li>
+                    <li><a href="/resources/faqs/" onclick="closeMobileMenu()">FAQs</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="/contact/" class="btn btn-navy" onclick="closeMobileMenu()" style="margin-top:2rem;">Get a Quote</a>
+    </div>
+
+    <!-- 404 CONTENT -->
+    <main style="padding: 9rem 1.5rem 6rem; text-align: center; min-height: 70vh; display: flex; align-items: center;">
+        <div class="container" style="max-width: 760px; margin: 0 auto;">
+            <div style="font-size: 6rem; font-weight: 800; color: var(--teal); line-height: 1; margin-bottom: 1rem; font-family: var(--font-heading, inherit);">404</div>
+            <h1 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--navy);">Page Not Found</h1>
+            <p style="font-size: 1.15rem; color: var(--body); line-height: 1.7; margin-bottom: 2.5rem;">
+                The page you're looking for might have been moved, renamed, or is temporarily unavailable. 
+                Please choose from the links below to find what you need.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 3rem;">
+                <a href="/home/" class="btn btn-teal btn-lg"><i class="fas fa-home" style="margin-right: 0.5rem;"></i> Return Home</a>
+                <a href="/products/" class="btn btn-outline-navy btn-lg"><i class="fas fa-laptop" style="margin-right: 0.5rem;"></i> Explore Products</a>
+                <a href="/solutions/" class="btn btn-outline-navy btn-lg"><i class="fas fa-cogs" style="margin-right: 0.5rem;"></i> View Solutions</a>
+                <a href="/contact/" class="btn btn-outline-navy btn-lg"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> Contact Us</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo-wrap" style="margin-bottom:1.25rem;">
+                        <img src="/images/ec-logo.png" alt="Easy Connect Solutions" class="footer-brand-logo">
+                        <div class="logo-text footer-logo">Easy Connect<span>MALAYSIA</span></div>
+                    </div>
+                    <p>Malaysia's premier sustainable IT solutions provider.</p>
+                    <div class="social-row">
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/easyconnectmy/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61589531565872" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/60135322733" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/products/">Products</a></li>
+                        <li><a href="/solutions/">Solutions</a></li>
+                        <li><a href="/resources/">Resources</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
+                        <li><a href="/refurbishment-policy/">Refurbishment Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:0.4rem;">+60 13-532 2733</p>
+                    <p style="color:rgba(255,255,255,0.55); font-size:0.88rem; margin-bottom:1.25rem;">info@easyconnect.my</p>
+                    <a href="/contact/" class="btn btn-outline-white">Get a Quote</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Easy Connect Solutions Malaysia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="/js/lang.js?v=20260829_3"></script>
+    <script src="/js/app.js?v=20260829_3"></script>
+</body>
+</html>

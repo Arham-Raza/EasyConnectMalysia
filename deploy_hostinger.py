@@ -17,6 +17,7 @@ LOCAL_ROOT = Path(__file__).resolve().parent
 
 PUBLIC_ENTRIES = [
     ".htaccess",
+    "404.html",
     "about",
     "contact",
     "css",

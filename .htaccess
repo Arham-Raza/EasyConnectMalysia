@@ -4,14 +4,17 @@
 Options -Indexes
 DirectoryIndex index.html
 
+ErrorDocument 404 /404.html
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     # Keep the approved landing page on its explicit clean URL.
-    RewriteRule ^$ home/ [R=302,L]
+    RewriteRule ^$ home/ [R=301,L]
     # Direct aliases for shortcuts
     RewriteRule ^itad/?$ solutions/itad/ [R=301,L]
     RewriteRule ^buyback/?$ solutions/buyback/ [R=301,L]
     RewriteRule ^e-waste/?$ solutions/e-waste/ [R=301,L]
+    RewriteRule ^rental/?$ solutions/rental/ [R=301,L]
     # Removed service: return a clear Gone response instead of exposing stale content.
     RewriteRule ^solutions/remarketing/?$ - [G,L]
 </IfModule>
