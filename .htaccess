@@ -15,8 +15,8 @@ ErrorDocument 404 /404.html
     RewriteRule ^buyback/?$ solutions/buyback/ [R=301,L]
     RewriteRule ^e-waste/?$ solutions/e-waste/ [R=301,L]
     RewriteRule ^rental/?$ solutions/rental/ [R=301,L]
-    # Removed service: return a clear Gone response instead of exposing stale content.
-    RewriteRule ^solutions/remarketing/?$ - [G,L]
+    # Permanently deleted URL: return 404 Not Found
+    RewriteRule ^solutions/remarketing/?$ - [R=404,NC,L]
 </IfModule>
 
 # ─── Browser Caching ───────────────────────────────────
